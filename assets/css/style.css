@@ -1,0 +1,75 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: url("crossline-dots.png");
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topline {
+    float: left;
+}
+
+
+h1 {
+    border-bottom: 5px solid gray;
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 30px;
+    height: 30px;
+    width: 200px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+#links {
+    float: right;
+    padding: 30px;
+    height: 30px;
+    width: 50px;
+}
+
+a {
+    color: #777777;
+    padding: 30px;
+    height: 30px;
+    width: 50px;
+    text-decoration: none;   
+}
+
+h2 {
+    clear: both;
+    color: #4aaaa5;
+}
+
+.body {
+    float: left;
+}
+
+#picture {
+    float: left;
+    margin-right: 10px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    margin: auto;
+    font-size: 24px;
+}
+
+.images {
+    width: 100%;
+    float: left;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    background-color: #666666;
+    color: white;
+    border-top: 5px solid #4aaaa5;
+    padding: 20px;
+    margin: 20px, 10px, 5px, 10px;
+}

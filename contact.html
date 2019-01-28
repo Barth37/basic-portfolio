@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <header>Brian Arth</header>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="#">Contact</a>
+        <meta charset="UTF-8">
+        <title>Basic Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
 
     <body>
-        <h1>Contact</h1>
+        <div class="topline">
+            <h1>Brian Arth</h1>
+            <div id="links"><a href="index.html">About</a><a href="portfolio.html">Portfolio</a><a href="#">Contact</a>
+                </div>
+        </div>
+
+        <h2>Contact</h2>
         <form>
             <fieldset>
                 <legend>Text input</legend>
@@ -33,9 +38,11 @@
                         rows = "3"
                         cols = "80">Your text here</textarea>
                 </p>
+                
             </fieldset>
         </form>
 
         <button type="button">Submit</button>
+        <footer>Copyright</footer>
 
     </body>
