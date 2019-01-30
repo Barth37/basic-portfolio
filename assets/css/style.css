@@ -63,7 +63,6 @@ p {
 }
 
 .images {
-    height: 100% auto;
     width: 960px;
 }
 
@@ -75,17 +74,18 @@ footer {
     color: white;
     border-top: 5px solid #4aaaa5;
     padding: 20px;
-    margin: 20px, 10px, 5px, 10px;
+    margin-top: 350px;
 }
 
 form {
+    height: auto;
     width: 960px;
     margin-bottom: 20px;
 }
 
 .column {
     float: left;
-    width: 50%;
+    width: 45%;
     padding: 10px;
     height: 300px;
 }
